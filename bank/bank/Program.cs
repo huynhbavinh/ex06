@@ -9,27 +9,24 @@ namespace bank
     public class BankAccount
     {
         private int amount;
-        private int wallet;
         public BankAccount(int money)
         {
             amount = money;
-            money = wallet;
         }
-        public void deposit(int money)
+        public int deposit(int money)
         {
-            amount += money;
+            return amount += money;
         }
-        public static void withDraw(int amount)
+        public int withDraw(int money)
         {
-
+            return amount -= money;
         }
-        public static int balance(int amount)
-        { 
+        public int balance()
+        {
             return amount;
         }
         public static void Main(String[] args)
-        {
-
+        {          
         }
     }
 }
