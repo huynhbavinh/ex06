@@ -52,11 +52,16 @@
   <ItemGroup>
     <Compile Include="bankTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StackTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\bank\bank.csproj">
       <Project>{7ba69e73-d785-4c10-b080-01556dcdb7b6}</Project>
       <Name>bank</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Stack\Stack.csproj">
+      <Project>{9b0fed8f-a237-4412-b154-409630f29dcf}</Project>
+      <Name>Stack</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>
