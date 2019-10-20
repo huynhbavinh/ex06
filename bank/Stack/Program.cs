@@ -10,7 +10,7 @@ namespace Stack
     {
         private int[] space;
         private int ele;
-        private int count=0;
+        private int count = 0;
         static void Main(string[] args)
         {
         }
@@ -18,31 +18,32 @@ namespace Stack
         {
             space = new int[number];
         }
-       public void push(int item)
-       {
-           ele = item;
-           space[count] = ele;
-           count++;
-       }
-       public int pop()
-       {
-           Console.WriteLine(space[count-1]);
-           count = count - 1;
-           return count;
-       }
-       public int checkcount()
-       {
-           Console.WriteLine(count);
-           return count;
-       }
+        public void push(int item)
+        {
+            ele = item;
+            space[count] = ele;
+            count++;
+        }
+        public int pop()
+        { // use TEMP to remember the count input before its change
+            int temp = count; 
+            count--;
+            Console.WriteLine(space[temp - 1]);
+            return space[temp - 1];
+        }
+        public int checkcount()
+        {
+            Console.WriteLine(count);
+            return count;
+        }
         public int peek()
-       {
-           Console.WriteLine(space[count-1]);
-           return count;
-       }
+        {
+            Console.WriteLine(space[count - 1]);
+            return space[count - 1];
+        }
         public void print()
         {
-            for (int i = 0; i < space.Length ; i++)
+            for (int i = 0; i < space.Length; i++)
             {
                 Console.Write(space[i]);
             }

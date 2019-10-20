@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack", "Stack\Stack.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "userStack", "userStack\userStack.csproj", "{999E3969-362F-4F5A-93D1-9264FAD11643}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyQueue", "MyQueue\MyQueue.csproj", "{E09DAEEA-8EB6-41A0-B07E-0BC7DF155394}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "userQueue", "userQueue\userQueue.csproj", "{A2A5F137-F667-4224-8C4F-D52D1F0BCD2F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{999E3969-362F-4F5A-93D1-9264FAD11643}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{999E3969-362F-4F5A-93D1-9264FAD11643}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{999E3969-362F-4F5A-93D1-9264FAD11643}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E09DAEEA-8EB6-41A0-B07E-0BC7DF155394}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E09DAEEA-8EB6-41A0-B07E-0BC7DF155394}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E09DAEEA-8EB6-41A0-B07E-0BC7DF155394}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E09DAEEA-8EB6-41A0-B07E-0BC7DF155394}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2A5F137-F667-4224-8C4F-D52D1F0BCD2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2A5F137-F667-4224-8C4F-D52D1F0BCD2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2A5F137-F667-4224-8C4F-D52D1F0BCD2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2A5F137-F667-4224-8C4F-D52D1F0BCD2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
